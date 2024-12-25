@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary Haven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(247, 247, 247);
+            color: rgb(51, 51, 51);
+        }
+        header {
+            background-color: rgb(74, 74, 138);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: rgb(51, 51, 51);
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: rgb(200, 200, 255);
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .quote-section, .book-section, .story-section {
+            background-color: rgb(255, 255, 255);
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        .quote {
+            font-style: italic;
+            margin: 10px 0;
+            color: rgb(102, 102, 102);
+        }
+        .book-item {
+            margin: 15px 0;
+            color: rgb(51, 51, 51);
+        }
+        .book-item img {
+            width: 100px;
+            height: auto;
+            margin-right: 15px;
+        }
+        .story {
+            margin: 15px 0;
+            color: rgb(51, 51, 51);
+        }
+        .story img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgb(74, 74, 138);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Literary Haven</h1>
+        <p>Your destination for timeless quotes, literary treasures, and enchanting stories</p>
+    </header>
+
+    <nav>
+        <a href="#quotes">Quotes</a>
+        <a href="#books">Book Suggestions</a>
+        <a href="#stories">Short Stories</a>
+    </nav>
+
+    <section id="quotes" class="quote-section">
+        <h2>Interesting Literary Quotes</h2>
+        <div class="quote">"It is what you read when you don't have to that determines what you will be when you can't help it." – Oscar Wilde</div>
+        <div class="quote">"A reader lives a thousand lives before he dies. The man who never reads lives only one." – George R.R. Martin</div>
+    </section>
+
+    <section id="books" class="book-section">
+        <h2>Literary Book Suggestions</h2>
+        <div class="book-item">
+            <img src="https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg" alt="Book Cover">
+            <p><strong>Title:</strong> To Kill a Mockingbird <br> <strong>Author:</strong> Harper Lee</p>
+        </div>
+        <div class="book-item">
+            <img src="https://kopp-medien.websale.net/bilder/gross/133206.jpg" alt="Book Cover">
+            <p><strong>Title:</strong> 1984 <br> <strong>Author:</strong> George Orwell</p>
+        </div>
+    </section>
+
+    <section id="stories" class="story-section">
+        <h2>Short Stories</h2>
+        <div class="story">
+            <img src="https://wallpaperaccess.com/full/279874.jpg" alt="Story Image">
+            <h3>The Mysterious Forest</h3>
+            <p>Deep in the heart of the ancient woods, an enchanting story unfolds about bravery, friendship, and the unbreakable bond between nature and humankind...</p>
+        </div>
+        <div class="story">
+            <img src="https://img.freepik.com/premium-photo/discovering-lost-city-discover-steep-latin-generate-ai_98402-83230.jpg" alt="Story Image">
+            <h3>The Lost City</h3>
+            <p>In a forgotten corner of the earth lies a city shrouded in mist, where every street has a story and every secret holds the power to change lives...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Literary Haven. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

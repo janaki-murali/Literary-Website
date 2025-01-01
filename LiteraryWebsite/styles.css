@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+    color: rgb(51, 51, 51);
+}
+
+.header {
+    background-color: rgb(74, 74, 138);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color: rgb(200, 200, 255);
+    text-decoration: underline;
+}
+
+.section {
+    padding: 20px;
+}
+
+.quote-section, .book-section, .story-section {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.quote {
+    font-style: italic;
+    margin: 10px 0;
+    color: rgb(102, 102, 102);
+}
+
+.book-item {
+    margin: 15px 0;
+    color: rgb(51, 51, 51);
+}
+
+.book-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.story {
+    margin: 15px 0;
+    color: rgb(51, 51, 51);
+}
+
+.story img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(74, 74, 138);
+    color: rgb(255, 255, 255);
+}

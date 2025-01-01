@@ -1,99 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Help Hub</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: rgb(244, 244, 244);
-            color: rgb(51, 51, 51);
-        }
-        header {
-            background-color: rgb(76, 175, 80);
-            color: rgb(255, 255, 255);
-            text-align: center;
-            padding: 20px 0;
-        }
-        nav {
-            text-align: center;
-            background-color: rgb(51, 51, 51);
-            padding: 10px 0;
-        }
-        nav a {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-        nav a:hover {
-            color: rgb(200, 255, 200);
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: rgb(255, 255, 255);
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: rgb(76, 175, 80);
-        }
-        footer {
-            text-align: center;
-            background-color: rgb(76, 175, 80);
-            color: rgb(255, 255, 255);
-            padding: 10px 0;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <div class="header">
         <h1>Welcome to Self-Help Hub</h1>
         <p>Your guide to personal growth and well-being</p>
-    </header>
+    </div>
 
-    <nav>
+    <div class="nav">
         <a href="#tips">Self-Help Tips</a>
         <a href="#books">Recommended Books</a>
         <a href="#contact">Contact Us</a>
-    </nav>
+    </div>
 
-    <section id="tips">
+    <div id="tips" class="section">
         <h2>Self-Help Tips</h2>
-        <ul>
-            <li>Start your day with positive affirmations.</li>
-            <li>Set realistic goals and work towards them step by step.</li>
-            <li>Practice mindfulness and meditation regularly.</li>
-            <li>Surround yourself with supportive and inspiring people.</li>
-        </ul>
-    </section>
+        <div class="list">
+            <div>Start your day with positive affirmations.</div>
+            <div>Set realistic goals and work towards them step by step.</div>
+            <div>Practice mindfulness and meditation regularly.</div>
+            <div>Surround yourself with supportive and inspiring people.</div>
+        </div>
+    </div>
 
-    <section id="books">
+    <div id="books" class="section">
         <h2>Recommended Books</h2>
-        <ul>
-            <li><strong>Atomic Habits</strong> by James Clear</li>
-            <li><strong>The Power of Now</strong> by Eckhart Tolle</li>
-            <li><strong>Think and Grow Rich</strong> by Napoleon Hill</li>
-            <li><strong>You Are a Badass</strong> by Jen Sincero</li>
-        </ul>
-    </section>
+        <div class="list">
+            <div><strong>Atomic Habits</strong> by James Clear</div>
+            <div><strong>The Power of Now</strong> by Eckhart Tolle</div>
+            <div><strong>Think and Grow Rich</strong> by Napoleon Hill</div>
+            <div><strong>You Are a Badass</strong> by Jen Sincero</div>
+        </div>
+    </div>
 
-    <section id="contact">
+    <div id="contact" class="section">
         <h2>Contact Us</h2>
-        <p>If you have any questions or need guidance, feel free to reach out:</p>
-        <p>Email: support@selfhelphub.com</p>
-        <p>Phone: +123 456 7890</p>
-    </section>
+        <div>If you have any questions or need guidance, feel free to reach out:</div>
+        <div>Email: support@selfhelphub.com</div>
+        <div>Phone: +123 456 7890</div>
+    </div>
 
-    <footer>
+    <div class="footer">
         <p>&copy; 2024 Self-Help Hub. All Rights Reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>

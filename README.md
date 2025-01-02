@@ -2,13 +2,6 @@
 
 Welcome to the **Website Layouts with HTML** repository! This repository contains three different website layouts that I have created using **HTML** and **CSS**. Each layout demonstrates basic web development techniques and showcases a variety of website designs.
 
-## Table of Contents
-
-- [Layouts Included](#layouts-included)
-- [Preview](#preview)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Layouts Included
 
 This repository includes the following website layouts:
